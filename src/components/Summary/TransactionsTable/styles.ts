@@ -33,6 +33,22 @@ export const Container = styled.div`
                 color: var(--red);
             }
         }
-    
+        @media (max-width: 538px){
+            border-spacing: 0;
+            th{
+                padding: 1rem;
+            }
+            td{
+                padding: 1rem;
+            }
+        }
+        @media (max-width: 425px){
+            th{
+                padding: 0.5rem;
+            }
+            td{
+                padding:0.5rem 0.2rem;
+            }
+        }
     }
 `;
